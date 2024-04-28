@@ -563,7 +563,8 @@ abstract class LightOpenIDProvider
                     'openid.error_code' => 'unsupported-type',
                     'openid.session_type' => 'no-encryption'
                 )
-            ));
+            )
+            );
         }
 
         # Creating the association
